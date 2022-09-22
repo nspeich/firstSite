@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tableau</title>
+    <style type="text/css">
+        table{
+            border-collapse: collapse;
+        } 
+
+        td, th{
+            padding: 5px;
+            border: 1px black solid;
+        }
+        </style>
+  </head>
+  <body>
+        <!-- tableau simple -->
+    <!-- <table>
+        <tr>
+            <th>Prénom</th>
+            <th>Nom</th>
+        </tr>
+
+        <tr>
+            <td>pierre</td>
+            <td>Jacques</td>
+        </tr> -->
+
+    </table>
+
+        <!-- tableau complex -->
+
+        <thead></thead>
+            <tr>
+                <th>Prénom</th>
+                <th>Profession</th>
+                <th>Célibataire</th>
+                <th>Couple</th>
+            </tr>
+
+        <thbody>
+
+            <tr>
+                <td>Pierre</td>
+                <td>Jardinier</td>
+                <td>Oui</td>
+                <td>Non</td>
+            </tr>
+
+            <tr>
+                <td>Stendal</td>
+                <td>Ecrivan</td>
+                <td>Non</td>
+                <td>Oui</td>
+            </tr>
+            <tr>
+                <td>Yves</td>
+                <td>Politicien</td>
+                <td>Nr</td>
+                <td>Nr</td>
+            </tr>
+
+            <tfoot>
+                <th>Prénom</th>
+                <th>Profession</th>
+                <th>Célibataire</th>
+                <th>Couple</th>
+            </tfoot>
+  
+        </thbody>
+        
+        <thfoot></thfoot>
+
+  </body>
+</html>
