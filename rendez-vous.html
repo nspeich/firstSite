@@ -37,26 +37,34 @@
         <ul>
             <li><a href="index.html">Accueil</a></li>
             <li><a href="home.html"></a>Contact</li>
-            <li><a href="https://www.lahochi.fr/a-propos/">Energies</a></li>
+            <li><a href="home.html">Energies</a></li>
             <li><a href="rendez-vous.html"></a>Rendez-vous</li>
         </ul>
     </nav>
 
     <section>
-        <from action="traitement.php" method="post">
-            <p>
-                Prendre rendez-vous <br />
-                <p>Nom <input type="text" name=""> </p>
-                <p>Prénom <input type="text" name=""> </p>
-                
-                <p>
-                    Expliquez moi en quelques mots ce qui vous amène.
-                </p>
-                <textarea name="description" cols="10"></textarea>
-            <br />
-                <input type="button" value="Envoyer">
+        <div class="form">
 
-            </p>
-
+            <from action="traitement.php" method="post">
+                <fieldset>
+                    <legend>Prendre rendez-vous</legend>
+                    <p>
+                        <!-- Prendre rendez-vous <br /> -->
+                        <p>Nom <input type="text" name="" autofocus required> </p>
+                        <p>Prénom <input type="text" name="" required> </p>
+                        <p>E-mail <input type="email" name="" required> </p>
+                        <p>Date de naissance <input type="Date" name=""> </p>
+                        
+                        <p>
+                            Expliquez moi en quelques mots ce qui vous amène.
+                        </p>
+                        <textarea name="description" cols="40" rows="5" maxlength="400"></textarea>
+                        <br />
+                        <input type="submit" value="Envoyer">
+                        
+                    </p>
+                    
+                </fieldset>
             </form>
+        </div>
     </section>
