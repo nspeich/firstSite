@@ -121,10 +121,10 @@ a:focus{
     color: red;
 }
 
-/* quand le bouton est actif  */
-a:visited{
+/* quand le bouton est actif  
+/* a:visited{
     color: red;
-}
+} */
 
 section{
     text-align: center;
@@ -248,8 +248,9 @@ footer{
     background-color: #F4F7F6;
 }
 
-.form p{}
+.form h3{
 
+}
 
 /* police */
 
