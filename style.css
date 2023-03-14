@@ -248,9 +248,17 @@ footer{
     background-color: #F4F7F6;
 }
 
-.form h3{
-
+input{
+    width: 50%;
+    position: relative;
+    height: 50px;
 }
+
+.form p{
+    
+}
+
+
 
 /* police */
 
